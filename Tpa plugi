@@ -1,0 +1,10 @@
+Logger log = getLogger();
+
+	public void onEnable(){
+		log.info("Your plugin has been enabled!");
+	}
+
+	public void onDisable(){
+		log.info("Your plugin has been disabled.");
+	}
+}
