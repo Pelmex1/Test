@@ -10,7 +10,9 @@ Logger log = getLogger();
 }
 public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args){
 	if(cmd.getName().equalsIgnoreCase("tpa")){
-		
+		public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args){
+	if(cmd.getName().equalsIgnoreCase("tpaccept")){
+
 		return true;
 	} //Если это произошло, то возвращаем true, иначе функция вернёт false
 	return false; 
